@@ -1,12 +1,7 @@
 import logo from './assets/images/gif/fluid.gif';
 import './App.css';
-import CodeBlock from './components/CodeBlock'
-const codeString = `{
-  "compilerOptions": {
-    "baseUrl": "src"
-  },
-  "include": ["src"]
-}`;
+import { Home } from 'pages'
+
 function App() {
   return (
     <div className="App">
@@ -23,9 +18,7 @@ function App() {
         >
           Follow the instructions
         </a>
-        <CodeBlock >
-          {codeString}
-        </CodeBlock>
+       <Home/>
       </header>
     </div>
   );
