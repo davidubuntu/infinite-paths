@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './assets/images/gif/fluid.gif';
 import './App.css';
 
 function App() {
@@ -7,15 +7,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         Infinite Paths
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://medium.com/hackernoon/absolute-imports-with-create-react-app-4c6cfb66c35d"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Follow the instructions
         </a>
       </header>
     </div>
