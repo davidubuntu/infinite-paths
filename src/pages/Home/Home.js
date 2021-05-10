@@ -1,5 +1,5 @@
-import CodeBlock from 'components/CodeBlock'
-
+import CodeBlock from 'components/CodeBlock/CodeBlock'
+import style  from './Home.scss'
 export const Home = () => {
   const code1 = `{
   "compilerOptions": {
@@ -21,11 +21,11 @@ export const Home = () => {
 }
   `
   return (
-    <div>
-      <CodeBlock>
+    <div className={style.home}>
+      <CodeBlock height={10}>
         {code1}
       </CodeBlock>
-      <CodeBlock>
+      <CodeBlock height={18}>
         {code2}
       </CodeBlock>
     </div>
