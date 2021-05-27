@@ -1,6 +1,6 @@
 import logo from './assets/images/gif/fluid.gif';
 import './App.css';
-import { Home } from 'pages'
+import { Home } from './pages'
 
 function App() {
   return (

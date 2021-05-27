@@ -8,6 +8,13 @@
   pointer-events: none;
 }
 
+code{
+    background: #2f2f2f;
+    color: #f7c2c3;
+    border-radius: 3px;
+    padding: 0 10px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
