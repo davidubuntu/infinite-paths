@@ -31,6 +31,9 @@ export const Home = () => {
       <p>As explained in the <a href='https://create-react-app.dev/docs/importing-a-component/#absolute-imports'>docs</a>, you start by creating a <code>jsconfig.json</code> file
         in your root with these characters and symbols in it:
       </p>
+      <p>
+        Yes TS lovers <code>tsconfig.json</code> is working too
+      </p>
       <h3>jsconfig.json</h3>
       <CodeBlock height={10}>
         {code1}
