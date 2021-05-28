@@ -2,7 +2,7 @@ import style  from './Home.module.scss'
 import imageWebStorm from '../../assets/images/screens/webstorm.png'
 import imageMatrix from '../../assets/images/gif/matrix.gif'
 import imageDavid from '../../assets/images/naviDavid.jpg'
-import CodeBlock from 'components/CodeBlock/subcomponents/CodeBlock'
+import CodeBlock from '../../components/CodeBlock/subcomponents/CodeBlock'
 
 
 export const Home = () => {
