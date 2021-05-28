@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-    background-color: #f6c2c3;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(246,194,195,1) 0%, rgba(246,194,195,1) 38%, rgba(130,202,223,1) 69%, rgba(255,255,255,1) 100%);
 }
 
 .App-logo {
@@ -12,7 +13,7 @@ code{
     background: #2f2f2f;
     color: #f7c2c3;
     border-radius: 3px;
-    padding: 0 10px;
+    padding: 2px 10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

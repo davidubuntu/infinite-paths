@@ -15,6 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "lint": "react-scripts run lint",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
